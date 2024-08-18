@@ -174,7 +174,7 @@ Me gusta tener metas y objetivos claros y colaborar en todo sentido a cualquier 
             </Info>
           </Proyecto>
         </ContainerInicioSesion>
-        <Titulo id="conocimientos">Conocimientos</Titulo>
+        <Titulo id="conocimientos">CONOCIMIENTOS</Titulo>
         <ContainerInicioSesion conocimientos>
           <ContainerCono>
             <Imagen
