@@ -75,17 +75,17 @@ Me gusta tener metas y objetivos claros y colaborar en todo sentido a cualquier 
         </ContainerInicioSesion>
         <Titulo id="proyectos">PROYECTOS</Titulo>
         <ContainerInicioSesion proyectos>
-          <Proyecto>
+          <Proyecto
+            onClick={() => {
+              window.open(
+                "https://drive.google.com/file/d/1N0YLSFwdbWIKQkan5cSl055wyJ0Q0EWo/view?usp=drive_link"
+              );
+            }}
+          >
             <Foto>
               <Imagen src={require("../Imagenes/UnReal.png")} />
             </Foto>
-            <Info
-              onClick={() => {
-                window.open(
-                  "https://drive.google.com/drive/u/0/folders/19Ns2prHMRjeeNBvz2N0AKf0xG_JyYPaR"
-                );
-              }}
-            >
+            <Info>
               <TituloProyecto>Paisaje Playa Montañosa</TituloProyecto>
               <TecProyecto>Tecnologías utilizadas:</TecProyecto>
               <ContainerTextTec>
@@ -93,17 +93,17 @@ Me gusta tener metas y objetivos claros y colaborar en todo sentido a cualquier 
               </ContainerTextTec>
             </Info>
           </Proyecto>
-          <Proyecto>
+          <Proyecto
+            onClick={() => {
+              window.open(
+                "https://www.facebook.com/p/MODO-GYM-100089211438897/"
+              );
+            }}
+          >
             <Foto>
               <Imagen src={require("../Imagenes/ModoGYM.png")} />
             </Foto>
-            <Info
-              onClick={() => {
-                window.open(
-                  "https://www.facebook.com/p/MODO-GYM-100089211438897/"
-                );
-              }}
-            >
+            <Info>
               <TituloProyecto>Sistema Gimnasio ModoGYM</TituloProyecto>
               <TecProyecto>Tecnologías utilizadas:</TecProyecto>
               <ContainerTextTec>
@@ -111,15 +111,15 @@ Me gusta tener metas y objetivos claros y colaborar en todo sentido a cualquier 
               </ContainerTextTec>
             </Info>
           </Proyecto>
-          <Proyecto>
+          <Proyecto
+            onClick={() => {
+              window.open("https://www.facebook.com/clasesdeajedrezbolivia/");
+            }}
+          >
             <Foto>
               <Imagen src={require("../Imagenes/Infinity.png")} />
             </Foto>
-            <Info
-              onClick={() => {
-                window.open("https://www.facebook.com/clasesdeajedrezbolivia/");
-              }}
-            >
+            <Info>
               <TituloProyecto>Sistema Infinity Chess</TituloProyecto>
               <TecProyecto>Tecnologías utilizadas:</TecProyecto>
               <ContainerTextTec>
@@ -129,15 +129,15 @@ Me gusta tener metas y objetivos claros y colaborar en todo sentido a cualquier 
               </ContainerTextTec>
             </Info>
           </Proyecto>
-          <Proyecto>
+          <Proyecto
+            onClick={() => {
+              window.open("https://github.com/SergioSoliz2017/ReservaAula");
+            }}
+          >
             <Foto>
               <Imagen src={require("../Imagenes/Reserva.png")} />
             </Foto>
-            <Info
-              onClick={() => {
-                window.open("https://github.com/SergioSoliz2017/ReservaAula");
-              }}
-            >
+            <Info>
               <TituloProyecto>Sistema Reserva de Aulas</TituloProyecto>
               <TecProyecto>Tecnologías utilizadas:</TecProyecto>
               <ContainerTextTec>
@@ -145,15 +145,15 @@ Me gusta tener metas y objetivos claros y colaborar en todo sentido a cualquier 
               </ContainerTextTec>
             </Info>
           </Proyecto>
-          <Proyecto>
+          <Proyecto
+            onClick={() => {
+              window.open("https://github.com/JeveSoft/BasquetFrontend");
+            }}
+          >
             <Foto>
               <Imagen src={require("../Imagenes/Basquet.png")} />
             </Foto>
-            <Info
-              onClick={() => {
-                window.open("https://github.com/JeveSoft/BasquetFrontend");
-              }}
-            >
+            <Info>
               <TituloProyecto>Sistema Liga Basquet</TituloProyecto>
               <TecProyecto>Tecnologías utilizadas:</TecProyecto>
               <ContainerTextTec>
@@ -304,7 +304,9 @@ Me gusta tener metas y objetivos claros y colaborar en todo sentido a cualquier 
               <Imagen src={require("../Imagenes/Logos/wasap.png")} />
             </BotonRedes>
           </ContainerBotones>
-          <TextDerechos>Copyright © 2024 Soliz Nogales Sergio Brayan</TextDerechos>
+          <TextDerechos>
+            Copyright © 2024 Soliz Nogales Sergio Brayan
+          </TextDerechos>
         </Footer>
       </Container>
     </GlobalStyle>
