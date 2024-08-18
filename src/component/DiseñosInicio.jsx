@@ -134,6 +134,7 @@ export const Proyecto = styled.div`
   width: 250px;
   height: 350px;
   border-radius: 25px;
+  cursor: pointer;
 `;
 export const ContainerCono = styled.div`
   margin: auto;
