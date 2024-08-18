@@ -55,8 +55,7 @@ Me gusta tener metas y objetivos claros y colaborar en todo sentido a cualquier 
             <BotonIniciar
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1a6ziJFc2L9MyJr_pJzlkEif75PimioZr/view?usp=drive_link",
-                  "_blank"
+                  "https://drive.google.com/file/d/1losYgBIdWxUh1E6t9ZS2mcQZ_dWGW-l6/view?usp=drive_link"
                 );
               }}
             >
