@@ -112,7 +112,7 @@ Me gusta tener metas y objetivos claros y colaborar en todo sentido a cualquier 
           </Proyecto>
           <Proyecto
             onClick={() => {
-              window.open("https://www.facebook.com/clasesdeajedrezbolivia/");
+              window.open("https://github.com/SergioSoliz2017/SistemaInstitutoFronted.git");
             }}
           >
             <Foto>
