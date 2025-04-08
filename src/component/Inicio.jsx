@@ -304,7 +304,7 @@ Me gusta tener metas y objetivos claros y colaborar en todo sentido a cualquier 
             </BotonRedes>
           </ContainerBotones>
           <TextDerechos>
-            Copyright © 2024 Soliz Nogales Sergio Brayan
+            Copyright © 2025 Soliz Nogales Sergio Brayan
           </TextDerechos>
         </Footer>
       </Container>
