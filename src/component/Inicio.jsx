@@ -55,7 +55,7 @@ Me gusta tener metas y objetivos claros y colaborar en todo sentido a cualquier 
             <BotonIniciar
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1losYgBIdWxUh1E6t9ZS2mcQZ_dWGW-l6/view?usp=drive_link"
+                  "https://drive.google.com/file/d/1_eZ9O7tKi0ZevYjuYavjtvHIWlpofWaO/view?usp=drive_link"
                 );
               }}
             >
@@ -74,6 +74,60 @@ Me gusta tener metas y objetivos claros y colaborar en todo sentido a cualquier 
         </ContainerInicioSesion>
         <Titulo id="proyectos">PROYECTOS</Titulo>
         <ContainerInicioSesion proyectos>
+        <Proyecto
+            onClick={() => {
+              window.open(
+                "https://github.com/SergioSoliz2017/SistemaAlianzaCochala.git"
+              );
+            }}
+          >
+            <Foto>
+              <Imagen src={require("../Imagenes/AlianzaCochala.png")} />
+            </Foto>
+            <Info>
+              <TituloProyecto>Sistema Alianza Cochala</TituloProyecto>
+              <TecProyecto>Tecnologías utilizadas:</TecProyecto>
+              <ContainerTextTec>
+                <TextTec>React Js - Laravel</TextTec>
+              </ContainerTextTec>
+            </Info>
+          </Proyecto>
+          <Proyecto
+            onClick={() => {
+              window.open(
+                "https://github.com/SergioSoliz2017/Restaurantes.git"
+              );
+            }}
+          >
+            <Foto>
+              <Imagen src={require("../Imagenes/Restaurante.png")} />
+            </Foto>
+            <Info>
+              <TituloProyecto>Sistema Busqueda Restaurantes</TituloProyecto>
+              <TecProyecto>Tecnologías utilizadas:</TecProyecto>
+              <ContainerTextTec>
+                <TextTec>Kotlin - Java</TextTec>
+              </ContainerTextTec>
+            </Info>
+          </Proyecto>
+          <Proyecto
+            onClick={() => {
+              window.open(
+                "https://github.com/SergioSoliz2017/HeroMoto.git"
+              );
+            }}
+          >
+            <Foto>
+              <Imagen src={require("../Imagenes/Moto.png")} />
+            </Foto>
+            <Info>
+              <TituloProyecto>Hero Experiencia VR</TituloProyecto>
+              <TecProyecto>Tecnologías utilizadas:</TecProyecto>
+              <ContainerTextTec>
+                <TextTec>Unity - VR</TextTec>
+              </ContainerTextTec>
+            </Info>
+          </Proyecto>
           <Proyecto
             onClick={() => {
               window.open(
@@ -130,7 +184,7 @@ Me gusta tener metas y objetivos claros y colaborar en todo sentido a cualquier 
           </Proyecto>
           <Proyecto
             onClick={() => {
-              window.open("https://github.com/SergioSoliz2017/ReservaAula");
+              window.open("https://github.com/SergioSoliz2017/ReservaAula.git");
             }}
           >
             <Foto>
@@ -146,7 +200,7 @@ Me gusta tener metas y objetivos claros y colaborar en todo sentido a cualquier 
           </Proyecto>
           <Proyecto
             onClick={() => {
-              window.open("https://github.com/JeveSoft/BasquetFrontend");
+              window.open("https://github.com/JeveSoft/BasquetFrontend.git");
             }}
           >
             <Foto>
@@ -160,7 +214,9 @@ Me gusta tener metas y objetivos claros y colaborar en todo sentido a cualquier 
               </ContainerTextTec>
             </Info>
           </Proyecto>
-          <Proyecto>
+          <Proyecto  onClick={() => {
+              window.open("https://github.com/SergioSoliz2017/Reparacion.git");
+            }}>
             <Foto>
               <Imagen src={require("../Imagenes/Celular.png")} />
             </Foto>

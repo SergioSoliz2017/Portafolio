@@ -155,6 +155,8 @@ export const Imagen = styled.img`
   width: 100%;
   height: 100%;
   border-radius: 25px 25px 0 0;
+  object-fit: fill; 
+
   ${(props) =>
     props.conocimientos &&
     css`
